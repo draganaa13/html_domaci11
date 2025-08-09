@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.body {
+	background-color: blanchedalmond;
+}
+
+.navigacija {
+	display: flex;
+	justify-content: end;
+	gap: 0.5in;
+	background-color: rgb(160, 198, 252);
+	padding: 10px;
+}
+
+.navigacija a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.zaglavlje {
+	display: flex;
+	background-color: rgb(0, 0, 0);
+	padding: 1.8in;
+	color: white;
+	height: 200px;
+}
+.zaglavlje img {
+	height: 3in;
+	width: 3in;
+	border-radius: 50%;
+}
+.zaglavlje h1,
+h3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: end;
+	font-size: 0.3in;
+	padding-bottom: 0.2in;
+}
+.dugme {
+	display: flex;
+	background-color: rgb(62, 126, 255);
+	padding: 0.1in;
+	margin-left: 3in;
+	margin-top: 0.2in;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.glavnaSekcija {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: start;
+	padding-bottom: 1in;
+	flex-wrap: wrap;
+}
+
+.licniPodaci {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2in;
+	padding: 0.2in;
+	border: 2px solid black;
+	margin-top: 0.5in;
+}
+
+.tehnickeVestine {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2in;
+	padding: 0.2in;
+	border: 2px solid black;
+	margin-top: 0.5in;
+}
+.tehnickeVestine li {
+	padding-bottom: 0.1in;
+}
+
+.obrazovanje {
+	display: flex;
+	flex-direction: column;
+	padding: 0.2in;
+	gap: 0.2in;
+	border: 2px solid black;
+	margin-top: 0.5in;
+}
+.obrazovanje li {
+	padding-bottom: 0.2in;
+}
+
+.projekti {
+	display: flex;
+	width: 100%;
+	padding: 1in;
+	gap: 1in;
+	background-color: black;
+	color: white;
+}
+.projektiTekst {
+	display: flex;
+	justify-content: left;
+	align-items: start;
+	flex-direction: column;
+
+	width: 50%;
+	padding-bottom: 0.5in;
+}
+.projektiTekst h2 {
+	padding-bottom: 0.3in;
+}
+
+.motivacionoPismo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 4in;
+	padding-right: 4in;
+	gap: 0.2in;
+	margin-top: 1in;
+}
+.kontakt {
+	background-color: rgb(62, 126, 255);
+	padding: 0.1in;
+	margin-top: 0.2in;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 2in;
+}
+footer {
+	background-color: rgb(0, 0, 0);
+	height: 0.5in;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.kontaktPodaci {
+	background-color: rgb(62, 126, 255);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 0.2in;
+	margin-top: 0.5in;
+	padding: 0.5in;
+	margin-bottom: 0in;
+}
